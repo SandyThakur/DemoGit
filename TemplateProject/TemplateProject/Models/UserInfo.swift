@@ -13,6 +13,8 @@ protocol Identifiable {
 }
 
 /* server User Info*/
+/*My Comment*/
+
 class UserInfo:Identifiable {
 
     var userId:String?
