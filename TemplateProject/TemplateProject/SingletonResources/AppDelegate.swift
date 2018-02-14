@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder {
 
     var window: UIWindow?
+    var number:Int = 0
     static func sharedDelegate()->AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
     }
