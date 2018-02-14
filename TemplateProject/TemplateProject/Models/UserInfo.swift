@@ -12,6 +12,7 @@ protocol Identifiable {
     static func parseJSON(data:Any?)->ResponseResult<Any>?
 }
 
+/* server User Info*/
 class UserInfo:Identifiable {
 
     var userId:String?
